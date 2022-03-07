@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 html, body{
   background-color: #ddd ;
@@ -11,6 +11,11 @@ header {
   background-color: #4D41C0;
   color: #fff
   
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
 }
 a, a:hover {
   text-decoration: none;
